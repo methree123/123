@@ -9,8 +9,8 @@ void main()
 read();
 replace();
 void display();
-void read()
 }
+void read()
 {
 printf("Enter the MAIN string: \n");
 scanf("%[^\n]s",STR);
@@ -48,9 +48,8 @@ p = 0;
 void print()
 {
 if(flag==0)
-else
-{
 printf("Pattern doesn't found!!!");
+else {
 ANS[a] = '\0';
 printf("\nThe RESULTANT string is:\n%s\n" ,ANS);
 }
